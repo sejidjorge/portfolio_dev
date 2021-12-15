@@ -1,0 +1,119 @@
+body {
+  position: relative;
+}
+.navbar-user{
+  background-color: #e3e6e9 !important;
+}
+.user-nav{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+}
+.nav-link-user a:hover{
+  color: #21295C !important;
+  border-bottom: solid 3px #21295C;
+}
+.active{  
+  color: #21295C !important;
+}
+.photo-bg-presentation{
+  width: 90%;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+@media (max-width: 600px){
+  .photo-bg-presentation{
+    width: 102.9% !important;
+    z-index: -10 !important;
+    margin-top: -30% !important;
+  }
+  .presentation-user{
+    padding-top: 34% !important;
+    margin-top: -164% !important;
+    background-color: #1c1e20c5;
+    padding-left: 10% !important;
+  }
+  .presentation-user-text{
+    color: #f8f9fa !important;
+  }
+  .display-user{
+    font-size: 60px !important;
+  }
+}
+@media (max-width: 800px){
+  .photo-bg-presentation{
+    margin-top: 40% !important;
+  }
+}
+.home-user{
+  font-family: 'Roboto', sans-serif;
+}
+.title-section{
+  font-family: 'Roboto', sans-serif;
+}
+.presentation-user{
+  margin-top: 10%;
+  color: #182330;
+}
+.paragraph-user{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+}
+.section-user{
+  padding-top: 6%;
+}
+.btn-user{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  border-radius: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+.btn-user-light{
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: solid 1px #21295C;
+}
+.btn-user-light:hover{
+  background-color: #01587a;
+  color: #f8f9fa;
+}
+.btn-user-dark{
+  background-color: #01587a;
+  color: #f8f9fa;
+  border: solid 1px #21295C;
+}
+.btn-user-dark:hover{
+  color: #01587a;
+  background-color: #f8f9fa;
+}
+.bg-dark{
+  background-color: #182330 !important;
+}
+.user-card{
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  border: solid 1px #21295C;
+}
+.user-card:hover{
+  background-color: #E5EBF1;
+}
+.img-card{
+  border-radius: 10px !important;
+}
+.contact-user:hover{
+  text-decoration: none;
+}
+.title-user{
+  font-family: 'Roboto', sans-serif;
+}
+.display-user{
+  font-size: 70px;
+  font-weight: 700;
+}
